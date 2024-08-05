@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="yes">
+    <link rel="shortcut icon" type="x-icon" href="8.png">
+    <title>Microsoft Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Microsoft <span ><i><b>Games</b></i></span></a>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#tournaments">Tournaments</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="action">
+            <div class="searchbx">
+                <a href="#"><i class='bx bx-search-alt' ></i></a>
+                <input type="text" placeholder="search games">
+            </div>
+        </div>
+        <div class="togglemenu" onclick="togglemenu();"></div>
+    </header>
+    <!-- Home Banner -->
+    <div class="banner " id="home">
+        <div class="bg">
+            <div class="content">
+                <h2>A New Home For<br>
+                Game Lover</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem.  </p>
+                <a href="https://www.facebook.com/groups/616937665681940/">Join Now</a>
+            </div>
+            <img src="1086.png" >
+        </div>
+    </div>
+    <!-- About -->
+    <div class="about animeX" id="about">
+        <div class="contentbx">
+            <h2>About Us</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus temporibus blanditiis provident. Minus, voluptate, voluptates odio est voluptatem, natus dignissimos vel iusto obcaecati commodi et illo quae ratione. Aliquid, dicta.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolore qui quas neque aperiam deserunt vel perspiciatis quaerat veritatis maiores optio explicabo, quibusdam dolores, veniam repellendus sequi mollitia eos pariatur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aspernatur laboriosam obcaecati est minima repellendus, harum fugiat temporibus natus! Temporibus voluptates laudantium corporis magnam unde ipsa facilis similique expedita distinctio?
+            </p>
+            <a href="#">Read More</a>
+            
+        </div>
+        <img src="file (1).png" >
+        
+    </div>
+    <!-- Games -->
+    <div class="games animeX" id="games">
+        <h2>Popular Gamers</h2>
+        <ul>
+            <li class="list active" data-filter="all" >All</li>
+            <li class="list" data-filter="pc">Pc games</li>
+            <li class="list" data-filter="mobile">Mobile games</li>
+        </ul>
+        <div class="cardBx">
+            <div class="card" data-item="pc">
+                <img src="game1.png">
+                <div class="content">
+                    <h4>Grand Theft Auto</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>$10.48</span></p>
+                        <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/">Get Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="pc">
+                <img src="game2.jpg">
+                <div class="content">
+                    <h4>Batman Arkham City</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>$19.99</span></p>
+                        <a href="https://store.steampowered.com/app/200260/Batman_Arkham_City__Game_of_the_Year_Edition/">Get Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="pc">
+                <img src="game.3.jpg">
+                <div class="content">
+                    <h4>Assassin's Creed Vallhala</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>$59.99</span></p>
+                        <a href="https://store.ubisoft.com/ie/assassins-creed-valhalla/5e849c6c5cdf9a21c0b4e731.html?_gl=1*2jax9r*_gcl_au*Mjg1MTE1NzE3LjE3MjEzODc4MjU.*_ga*MTk0NzUxNzQzNS4xNzIxMzg3ODI2*_ga_C4N5020N2R*MTcyMTM4NzgyNi4xLjEuMTcyMTM4NzgyNi42MC4wLjA.">Get Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="pc">
+                <img src="game4.jpg">
+                <div class="content">
+                    <h4>Spider Man</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>$59.99</span></p>
+                        <a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/">Get Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="pc">
+                <img src="game5.jpg">
+                <div class="content">
+                    <h4>God Of War</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>$49.99</span></p>
+                        <a href="https://store.steampowered.com/app/1593500/God_of_War/">Get Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="mobile">
+                <img src="game6.jpg">
+                <div class="content">
+                    <h4>Pubg</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>FREE</span></p>
+                        <a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/">Get Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="mobile">
+                <img src="game7.jpg">
+                <div class="content">
+                    <h4>Call Of Duty</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>$69.99</span></p>
+                        <a href="https://store.steampowered.com/app/1938090/Call_of_Duty/">Get Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="mobile">
+                <img src="game8.jpg">
+                <div class="content">
+                    <h4>Free Fire</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>FREE</span></p>
+                        <a href="https://www.gameloop.com/game/action/free-fire-on-pc">Get Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="mobile">
+                <img src="game9.jpg">
+                <div class="content">
+                    <h4>Shadow Fight Arena</h4>
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+                    <div class="info">
+                        <p>Pricing<br><span>FREE</span></p>
+                        <a href="https://store.steampowered.com/app/1446890/Shadow_Fight_Arena/">Get Game</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- tournament -->
+    <div class="tournaments animeX" id="tournaments">
+        <h2>Live Tournaments</h2>
+        <div class="boxBx">
+            <div class="box">
+                <img src="tournament1.jpg">
+                <div class="content">
+                    <h4><span>50</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Enim, alias cumque molestiae suscipit iure saepe soluta!
+                    </p>
+                    <div class="btn">
+                        <a href="https://www.youtube.com/watch?v=gQbNvRUpgbM" class="watch">Watch</a>
+                        <a href="https://www.pubgmobile.com/PK/signUp.shtml" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="tournament2.png">
+                <div class="content">
+                    <h4><span>30</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Enim, alias cumque molestiae suscipit iure saepe soluta!
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="game7.jpg">
+                <div class="content">
+                    <h4><span>40</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Enim, alias cumque molestiae suscipit iure saepe soluta!
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="tournament3.jpg">
+                <div class="content">
+                    <h4><span>40</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Enim, alias cumque molestiae suscipit iure saepe soluta!
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="tournament5.jpg">
+                <div class="content">
+                    <h4><span>20</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Enim, alias cumque molestiae suscipit iure saepe soluta!
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="tournament6.jpg">
+                <div class="content">
+                    <h4><span>50</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Enim, alias cumque molestiae suscipit iure saepe soluta!
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="contact animeX" id="contact">
+        <img src="contact.jpg">
+        <div class="form">
+            <h1>Contact Us</h1>
+            <div class="inputBx">
+                <p>Enter Name</p>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <div class="inputBx">
+                <p>Enter Email</p>
+                <input type="text" placeholder="Enter Email">
+            </div>
+            <div class="inputBx">
+                <p>Message</p>
+                <textarea placeholder="Type here..."></textarea>
+            </div>
+            <div class="inputBx">
+                <input type="submit" name="Submit">
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+<footer>
+    <div class="info">
+        <a href="#" class="logo">Gammers</a>
+        <p><i class='bx bx-copyright'></i> 2024 All Rights Reserved</p>
+        <ul>
+            <li><a href="https://www.facebook.com/m.ayaan.79230?mibextid=LQQJ4d"><i class='bx bxl-facebook'></i></a></li>
+            <li><a href="https://www.instagram.com/ayaan_3742_/"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+            <li><a href="https://www.youtube.com/@ayaanyoutuber1"><i class='bx bxl-youtube'></i></a></li>
+        </ul>
+    </div>
+</footer>
+    <script>
+        /* sticky navbar */
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+
+        });
+        /* responsive navbar */
+
+        function togglemenu(){
+            const togglemenu = document.querySelector('.togglemenu');
+            const nav = document.querySelector('.nav');
+            togglemenu.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+
+        /* scrolling Animation Effects */
+        window.addEventListener('scroll',function(){
+            var anime = document.querySelectorAll('.animeX');
+
+            for(var s = 0; s < anime.length; s++){
+                var windowheight = window.innerHeight;
+                var animetop = anime[s].getBoundingClientRect().top;
+                var animepoint = 150;
+
+                if(animetop < windowheight - animepoint){
+                    anime[s].classList.add('active');
+                }
+                else{
+                    anime[s].classList.remove('active');
+                }
+            }
+        })
+
+
+
+        /* filterable cards */
+        
+        let list = document.querySelectorAll('.list');
+        let card = document.querySelectorAll('.card');
+
+        for(let i = 0; i<list.length; i++){
+            list[i].addEventListener('click',function(){
+                for(let j=0; j<list.length; j++){
+                    list[j].classList.remove('active');
+                }
+                this.classList.add('active');
+
+                let dataFilter = this.getAttribute('data-filter');
+
+                for( let k=0; k<card.length; k++)
+                {
+                    card[k].classList.remove('active');
+                    card[k].classList.add('hide');
+
+                    if(card[k].getAttribute('data-item') == dataFilter || dataFilter == 'all'){
+                        card[k].classList.remove('hide');
+                        card[k].classList.add('active');
+                    }
+                }
+            })
+        }
+        /* searchbar */
+      
+    </script>
+</body>
+</html>
